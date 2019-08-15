@@ -1,0 +1,68 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+
+body {}
+
+a {
+}
+
+@media screen and (max-width: 768px) {
+  .PDB2C_moban_warp{
+    text-align: center;
+  }
+  #PDB2C_buy_click_0{
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
+.xe-widget.xe-todo-list .xe-header .xe-label strong {
+    font-size: 22px;
+    font-weight: normal;
+}
+#main-menu .fa-dashboard:before, .fa-android:before, .fa-shield:before, .fa-apple:before {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    width: 1em;
+    display: block;
+    text-align: center;
+}
+
+.ad_bg{
+    /*width: 490px;
+    height: 735px;
+    margin: auto;
+    position: relative;
+    z-index: 99;*/
+    text-align: center;
+}
+.ad_title{
+   /* position: absolute;
+    text-align: center;*/
+   bottom: 10%;
+   width: auto;
+   background: rgba(255, 255, 255, 0.79);
+   padding: 20px;
+   background: rgba(255, 255, 255, 0.83);
+   border: solid 1px #eee;
+   font-size: 20px;
+   font-weight: bold;
+}
+.ad_rcode{
+    width: 150px;
+    height: 150px;
+    /*right: 20px;
+    bottom: 20px;
+    position: absolute;*/
+    margin: auto;
+}
+.ad_btn{
+   /* position: absolute;
+    left: 20px;
+    bottom: 10px;*/
+   text-align: center;
+   padding: 10px 0px;
+}
