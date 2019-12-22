@@ -1,24 +1,13 @@
-name: Build OpenWrt (Use macOS)
+name: Build  (Use ubuntu)
 
-on: 
-  release:
-    types: [published]
-  push:
-    branches: 
-      - master
+
+on:
   watch:
     types: [started]
-
 jobs:
-  build:
-    runs-on: macos-latest
-
+  Ubuntu:
+    runs-on: ubuntu-latest
     steps:
-
-    - name: Initialization environment
-      run: |
-        brew cask install docker
-        sudo systemsetup -settimezone "Asia/Shanghai"
-        
     - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
+      uses: p3terx/debugger-action@master
+      
